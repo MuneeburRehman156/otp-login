@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/dark-background-with-golden-elements_79603-1558.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+overflow: hidden;
+}
+.form{
+    background-color: #f7f7f794;
+    margin-top: 5%;
+width: 30vw;
+height: 50vh;
+border-radius: 20px;
+padding: 5%;
+}
+.form #inp1,#btn-1,#inp2,a{
+    padding: 1.4%;
+    margin: 2% 0px;
+    height: 7%;
+    transition: .5s;
+}
+#btn-1:hover{
+background-color: orangered;
+color: white;
+font-weight: bold;
+text-decoration: underline;
+box-shadow: -12px 3px 10px black;
+transform: translate(8px);
+}
+#link{
+    color: black;
+}
+#link:hover{
+    transition: .5s;
+font-weight: bold;
+    color: orangered;
+}
+nav img{
+    width: 15%;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    list-style: none;
+cursor:pointer;
+list-style: none;
+    color: white;
+    border-bottom: none;
+    font-weight: bold;
+transition: .5s;
+}
+.nav-item:hover{
+    border-bottom: 1px solid orangered;
+    color: orangered;
+}
+.content{
+margin: 6% 0px;
+}
+h1{
+    padding-top: 4%;
+}
+h1,p{
+    color: white;
+}
+h5{
+    color: orangered;
+}
+#btn{
+width: 27%;
+font-weight: bold;
+padding: .6%;
+background-color: orangered;
+border-radius: 20px;
+color: white;
+border: none;
+box-shadow: 10px 10px 0px rgb(241, 135, 20);
+transition: 1s;
+border-bottom: 2px solid black;}
+#btn:hover{
+    transform: scale(1.2);
+}
